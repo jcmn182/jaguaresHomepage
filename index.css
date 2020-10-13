@@ -1,0 +1,21 @@
+@import "/css/search-bar.css";
+@import "/css/topnav.css";
+@import "/css/search-bar.css";
+@import "/css/matches.css";
+@import "/css/mailchip-blog.css";
+@import "/css/slider.css";
+@import "/css/footer.css";
+
+p{
+    font-weight: bold;
+    margin: 0;
+}
+
+.sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: auto;
+    height: 300px;
+  }

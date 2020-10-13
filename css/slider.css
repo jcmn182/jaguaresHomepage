@@ -1,0 +1,61 @@
+
+#carouselExampleFade{
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+    z-index: 0;
+  }
+  
+  .size-slide{
+    position: relative;
+  }
+  
+  .over-text{
+    color: #ffffff;
+    font-size: 80px;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 700;
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    text-decoration: none;
+}
+
+  .size-slide a{
+    text-decoration: none;
+      color: #ffffff;
+      font-size: 5vw;
+      font-family: 'Lato', sans-serif; 
+      font-weight: 700;
+      position: absolute;
+      bottom: 400px;
+      left: 50px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .size-slide a{bottom: 250px;}
+  
+  }
+
+  @media screen and (max-width: 540px) {
+    #carouselExampleFade{height: 361px;}
+    .size-slide a{bottom: 400px;}
+    .size-slide a{bottom: 20px;}
+  
+  }
+  
+  @media screen and (max-width: 414px) {
+    #carouselExampleFade{height: 277px;}
+  
+  }
+  
+  @media screen and (max-width: 375px) {
+    #carouselExampleFade{height: 251px;}
+  
+  }
+  
+  @media screen and (max-width: 320px) {
+    #carouselExampleFade{height: 214px;}
+  
+  }
+  
